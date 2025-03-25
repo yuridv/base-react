@@ -1,0 +1,49 @@
+{
+  "name": "base-react",
+  "description": "Base to start a new project with react and vite importing all your routes, components, layouts, contexts, styles and images fully automatically with the 'react-auto-import' dependency",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Yuri",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cls && vite",
+    "build": "rmdir /s /q build && vite build || echo folder build not found && vite build",
+    "preview": "cls && vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuridv/base-react.git"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "vite",
+    "import",
+    "automatic",
+    "auto",
+    "routes",
+    "componentes",
+    "contexts",
+    "layouts",
+    "css",
+    "style",
+    "assets",
+    "images"
+  ],
+  "bugs": {
+    "url": "https://github.com/yuridv/base-react/issues"
+  },
+  "homepage": "https://github.com/yuridv/base-react",
+  "dependencies": {
+    "react-auto-import2": "^0.0.4",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.3"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
