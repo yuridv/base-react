@@ -1,21 +1,22 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
-import { Config, Configuration, Test, Routes } from 'react-auto-import2'
-
-console.log('[Config(1)]=> ', Configuration)
-console.log('[Test(1)]=> ', Test)
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Config, Routes as Test } from 'react-auto-import2'
 
 Config({
-  routes: 'src/routes'
-})
+  Routes: {
+    dir: '/src/routes2',
+  },
+});
 
-console.log('[Config(2)]=> ', Configuration)
-console.log('[Test(2)]=> ', Test)
+console.log('[Result]=> ', Test)
 
 createRoot(document.querySelector('#root'))
   .render(
     <BrowserRouter>
-      { Routes }
+      <Routes>
+        {/* <Route path={ '/' } element={ <a>Page /</a> } /> */}
+        { Test }
+      </Routes>
     </BrowserRouter>
   );
