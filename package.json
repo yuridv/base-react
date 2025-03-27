@@ -6,7 +6,7 @@
   "author": "Yuri",
   "license": "MIT",
   "scripts": {
-    "dev": "cls && vite",
+    "dev": "cls && vite --force",
     "build": "rmdir /s /q build && vite build || echo folder build not found && vite build",
     "preview": "cls && vite preview"
   },
@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/yuridv/base-react",
   "dependencies": {
-    "react-auto-import2": "^0.0.4",
+    "react-auto-import2": "^0.0.9",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5"
   },
