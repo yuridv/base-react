@@ -1,7 +1,7 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router-dom'
-import { Config, Routes } from 'react-auto-import2'
+import { Config, Routes } from 'react-auto-import'
 
 console.log('[Result]=> ', Routes)
 
