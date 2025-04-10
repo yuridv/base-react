@@ -3,8 +3,6 @@ import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router-dom'
 import { Config, Routes } from 'react-auto-import'
 
-console.log('[Result]=> ', Routes.list);
-
 createRoot(document.querySelector('#root'))
   .render(
     <RouterProvider router={ Routes.router } />
