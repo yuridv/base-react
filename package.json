@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "cls && vite --force",
-    "build": "rmdir /s /q build && vite build || echo folder build not found && vite build",
+    "build": "vite build",
     "preview": "cls && vite preview"
   },
   "repository": {
