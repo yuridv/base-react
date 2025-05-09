@@ -1,4 +1,4 @@
-const Page = () => {
+const Page = ({ style }) => {
   return (
     <div>
       <h1>Page /dashboard/settings</h1>
