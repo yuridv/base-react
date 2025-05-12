@@ -1,7 +1,7 @@
-const Page = () => {
+const Page = ({ style }) => {
   return (
     <div>
-      <h1>Page /Test/Hello</h1>
+      <h1 className={ style?.color }>Page /Test/Hello</h1>
     </div>
   )
 }

@@ -4,7 +4,7 @@ const Layout = ({ style }) => {
   return (
     <>
       <header>
-        <h1>Layout Default</h1>
+        <h1 className={ style?.color }>Layout Default</h1>
       </header>
 
       <main>

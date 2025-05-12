@@ -1,9 +1,7 @@
-import style from '../Assets/CSS/test.module.css'
-
-const Page = () => {
+const Page = ({ style }) => {
   return (
     <div>
-      <h1 className={ style.test }>Page /</h1>
+      <h1 className={ style?.color }>Page /</h1>
     </div>
   )
 }

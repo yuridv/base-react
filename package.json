@@ -6,9 +6,9 @@
   "author": "Yuri",
   "license": "MIT",
   "scripts": {
-    "dev": "cls && vite --force",
+    "dev": "clear && vite --force",
     "build": "vite build",
-    "preview": "cls && vite preview"
+    "preview": "clear && vite preview"
   },
   "repository": {
     "type": "git",

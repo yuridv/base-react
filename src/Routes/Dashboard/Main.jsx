@@ -1,9 +1,7 @@
-import style from '../../Assets/CSS/settings.module.css'
-
-const Page = () => {
+const Page = ({ style }) => {
   return (
     <div>
-      <h1 className={ style.test }>Page /dashboard</h1>
+      <h1 className={ style?.color }>Page /dashboard</h1>
     </div>
   )
 }
